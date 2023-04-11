@@ -1,0 +1,39 @@
+.wrapper{
+
+    margin: 50px auto;
+}
+
+.slider{
+    border: 1px solid blueviolet;
+    max-width:80%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.slider-line{
+display: flex;
+background: red;
+transition:all ease 0.5s;
+}
+
+.slider-group img,
+.slider-line img{
+
+}
+
+.slider-group{
+box-sizing: border-box;
+display: flex;
+}
+
+
+
+.left{
+    border: 5px solid red;
+}
+.show{
+    border: 5px solid green;
+}
+.right{
+    border: 5px solid blue;
+}
