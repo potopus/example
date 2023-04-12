@@ -4,10 +4,10 @@
 }
 
 .slider {
-    border: 1px solid blueviolet;
-    max-width: 80%;
+    border: 10px solid #080808;
+    /* max-width: 80%; */
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden;*/
 }
 
 .slider-line {
@@ -64,10 +64,10 @@ span{
 
 
 .wrapper .slider-our-friends {
-    border: 3px solid black;
-    width: 80%;
-    margin:0 auto;
-    overflow: hidden;
+    border: 10px solid black;
+    /* width: 80%; */
+    margin: 0 auto;
+    /* overflow: hidden;*/
 }
 
 .wrapper .slider-our-friends-list {
