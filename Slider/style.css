@@ -61,3 +61,35 @@ span{
 .right {
     border: 5px solid blue;
 }
+
+
+.wrapper .slider-our-friends {
+    border: 3px solid black;
+    width: 80%;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.wrapper .slider-our-friends-list {
+    border: 3px solid green;
+    display: flex;
+}
+
+.wrapper .slider-our-friends-block {
+    border: 1px solid red;
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0 2.8rem;
+    overflow: hidden;
+}
+
+.wrapper .slider-our-friends-block .our-friends-card {
+    width: clamp(50px, 30%, 500px);
+    background: #bea3ed;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    overflow: hidden;
+}
